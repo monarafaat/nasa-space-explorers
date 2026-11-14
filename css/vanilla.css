@@ -1,0 +1,22 @@
+#nasa-library{position:fixed;z-index:30;left:18px;bottom:18px;font-family:'Baloo 2',system-ui,sans-serif;color:#f2f6ff}
+.nasa-tab,.nasa-panel button{border:1px solid rgba(120,200,255,.45);background:rgba(14,17,54,.88);color:#fff;border-radius:999px;padding:10px 16px;font:700 14px inherit;cursor:pointer;backdrop-filter:blur(12px)}
+.nasa-panel{position:fixed;inset:3vh 3vw 3vh auto;width:min(680px,94vw);overflow:auto;padding:22px;border:1px solid rgba(120,200,255,.4);border-radius:22px;background:rgba(7,7,34,.96);box-shadow:0 20px 80px #000b;backdrop-filter:blur(18px)}
+.nasa-panel[hidden]{display:none}.nasa-panel header{display:flex;align-items:center;justify-content:space-between}.nasa-panel header small,.mission-meta{color:#8feaff;letter-spacing:.12em;font-weight:800}.nasa-panel h2{margin:0;font-size:2rem}.nasa-intro{color:#cbd4f4}.nasa-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.mission-card{padding:14px;border:1px solid rgba(120,200,255,.25);border-radius:15px;background:rgba(35,35,84,.55)}.mission-card h3{margin:4px 0}.mission-card p{margin:7px 0;color:#dce5ff;line-height:1.4}.mission-card .mission-fact{color:#a9eaff}.mission-card small{display:block;color:#b9c2e4}.mission-card a,.catalog-links a,.nasa-source{display:inline-block;margin-top:9px;color:#79eaff;text-decoration:none;font-weight:800}.catalog-links{display:grid;gap:7px}.catalog-links a{margin:0;padding:9px 12px;border-radius:10px;background:#17183f}.nasa-source{margin-top:18px}@media(max-width:600px){.nasa-grid{grid-template-columns:1fr}.nasa-panel{inset:2vh 2vw;width:96vw;padding:16px}#nasa-library{right:10px;top:10px}.nasa-tab{font-size:12px;padding:8px 11px}}
+
+
+.kc-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+.kc-option{min-height:58px;white-space:normal}
+.kc-option.correct{border-color:#4fe0a0;background:rgba(34,180,120,.2)}
+.kc-option.wrong{border-color:#ff6b75;background:rgba(255,80,90,.18)}
+.kc-question{font-size:clamp(18px,2.4vw,25px);line-height:1.5;padding:22px;border-radius:18px;background:rgba(255,255,255,.07);margin:20px 0}
+.kc-pool{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:20px 0}
+.kc-ev{cursor:pointer}
+.kc-ev.sel{outline:2px solid #8deaff;transform:translateY(-2px)}
+.kc-tl{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+.kc-slot{min-height:88px;border:1px dashed rgba(255,255,255,.45);border-radius:14px;background:rgba(255,255,255,.06);color:inherit;padding:10px;cursor:pointer}
+.kc-slot .kc-ev{display:block;width:100%;height:100%;border:0;background:transparent;color:inherit}
+@media(max-width:700px){.kc-options{grid-template-columns:1fr}.kc-tl{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+[hidden]{display:none!important}
+[hidden]{display:none!important}
+#music-toggle{position:fixed;z-index:29;right:18px;top:66px;border:1px solid rgba(120,200,255,.45);background:rgba(14,17,54,.88);color:#fff;border-radius:999px;padding:10px 16px;font:700 14px system-ui,sans-serif;cursor:pointer;backdrop-filter:blur(12px)}
